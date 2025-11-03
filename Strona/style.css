@@ -1,0 +1,258 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kontener {
+    display: flex;
+    margin-top: 30px;
+}
+
+#kont_2 {
+
+    width: 32%;
+    height: 700px;
+    margin-left: 18%;
+    background-color: rgb(245, 237, 228);
+}
+
+#kont_3 {
+
+    width: 32%;
+    height: 700px;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    z-index: 100;
+    top: 0;
+   
+}
+
+#mapa {
+
+    width: 100%;
+    height: 120px;
+    display: flex;
+
+}
+#mapa a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#mapa a:hover{
+    text-decoration: none;
+    color: #fc1e1e;
+    font-weight: bold;
+    
+}
+
+#mapa_teskt_1 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+#mapa_teskt_2 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+   
+}
+
+#mapa_teskt_3 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+
+
+#mapa_teskt_5 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+#slider {
+    margin-top: 30px;
+    height: 150px;
+    width: 85%;
+
+    margin-left: 7.5%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.527);
+    text-align: center;
+
+}
+
+#o_mnie {
+    margin-top: 30px;
+    height: 250px;
+    width: 65%;
+    background-color: rgb(245, 237, 228);
+    margin-left: 17.5%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.527);
+    text-align: center;
+
+}
+
+#o_mnie_przyc {
+    margin-left: 900px;
+    margin-top: 30px;
+    width: 10%;
+    height: 45px;
+    background-color: #FFF0BF;
+    border-color: #FFF0BF;
+    border-radius: 5%;
+    font-size: larger;
+}
+
+#o_mnie_przyc:hover {
+    margin-left: 875px;
+    margin-top: 25px;
+    width: 11%;
+    height: 50px;
+    background-color: #F6FC1E;
+    border-color: #F6FC1E;
+    border-radius: 5%;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#teskt_kont {
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+#tekst_kont_1 {
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+#tekst_kont_2 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#logo_1 {
+    width: 20%;
+    height: 100px;
+
+    margin-top: -15px;
+    padding-left: 20px;
+
+}
+
+#slid_kont {
+    display: flex;
+    margin-left: 390px;
+}
+
+#kont_2_przyc {
+    margin-left: 75px;
+    margin-top: 35px;
+    width: 25%;
+    height: 40px;
+    background-color: #fff0bfc0;
+    border-color: #fff0bfc0;
+}
+
+#kont_2_przyc:hover {
+    margin-left: 75px;
+    margin-top: 35px;
+    margin-top: 35px;
+    width: 25%;
+    background-color: #F6FC1E;
+    border-color: #F6FC1E;
+}
+
+#teskt_janek {
+    font-weight: lighter;
+
+}
+
+#Prace_teskt {
+    text-align: center;
+    margin-left: 80px;
+}
+
+#Prace_kont {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#Prace_przyc {
+    margin-left: 920px;
+    margin-top: 35px;
+    width: 9%;
+    height: 45px;
+    background-color: #fff0bfc0;
+    border-color: #fff0bfc0;
+}
+
+#Prace_przyc:hover {
+    margin-left: 910px;
+    margin-top: 35px;
+    width: 10%;
+    height: 45px;
+    background-color: #F6FC1E;
+    border-color: #F6FC1E;
+}
+
+#Kont_tekst {
+    text-align: center;
+    margin-left: 95px;
+}
+
+#Kont_el {
+    height: 350px;
+    width: 65%;
+    background-color: bisque;
+    border: 10px solid #F6FC1E;
+    margin-left: 320px;
+    margin-top: 20px;
+
+}
+
+#Kont_tekst_2 {
+    font-size: 48px;
+    color: #fc891e
+}
+
+#kont_przyc {
+    margin-left: 900px;
+    background-color: #fff0bfc0;
+    border-color: #fff0bfc0;
+    height: 45px;
+    width: 15%;
+}
+
+#kont_przyc:hover {
+    margin-left: 870px;
+    background-color: #fff0bfc0;
+    border-color: #fff0bfc0;
+    height: 45px;
+    width: 18%;
+    background-color: #F6FC1E;
+    border-color: #F6FC1E;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+}

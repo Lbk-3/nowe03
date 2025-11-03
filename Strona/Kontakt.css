@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    height: 100px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    
+    z-index: 100;
+    top: 0;
+
+}
+
+#mapa {
+
+    width: 100%;
+    height: 120px;
+    display: flex;
+
+}
+
+#mapa a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#mapa a:hover {
+    text-decoration: none;
+    color: #fc1e1e;
+    font-weight: bold;
+
+}
+
+#mapa_teskt_1 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+#mapa_teskt_2 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+#mapa_teskt_3 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+
+#mapa_teskt_5 {
+    padding-left: 260px;
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+#NAGL {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 240, 154);
+    text-align: center;
+    font-size: 64px;
+    justify-content: center;
+    
+}
+
+
+
+footer {
+    display: flex;
+    height: 100px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+}
+#DANE{
+    width: 65%;
+    height: 250px;
+    background-color: azure;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+#DANE_nagl{
+    font-size: 48px;
+    text-align: center;
+}
+#KONT_FORM{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 500px;
+    width: 65%;
+    background-color: azure;
+    gap: 20px;
+    margin-left: 400px;
+}
