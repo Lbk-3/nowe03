@@ -1,0 +1,126 @@
+$fsize: 32px;
+$color-hover: red;
+$color-normal: black;
+$tdecoration: none;
+$hvtransform: scale(1.1);
+$hvtransition: all 0.2s ease-in-out;
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #mapa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: $tdecoration;
+          color: $color-normal;
+          font-weight: bold;
+          font-size: $fsize;
+          transition: $hvtransition;
+
+          &:hover {
+            color: $color-hover;
+            transform: $hvtransform;
+          }
+
+          p {
+            margin: 0; // usuwa odstępy w <p>
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  padding-top: 120px; // żeby treść nie była pod sticky headerem
+
+  #NAGL {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 240, 154);
+    text-align: center;
+    font-size: 64px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #INFO {
+    width: 70%;
+    height: auto;
+    background-color: rgb(192, 255, 255);
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 40px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    row-gap: 20px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    padding: 20px;
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  margin-top: 100px;
+  width: 100%;
+
+  #mapa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: $tdecoration;
+          color: $color-normal;
+          font-weight: bold;
+          font-size: $fsize;
+          transition: $hvtransition;
+
+          &:hover {
+            color: $color-hover;
+            transform: $hvtransform;
+          }
+        }
+      }
+    }
+  }
+}

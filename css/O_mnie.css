@@ -1,100 +1,106 @@
 header {
-    display: flex;
-    height: 100px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    
-    z-index: 100;
-    top: 0;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header #mapa ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+}
+header #mapa ul li {
+  list-style: none;
+}
+header #mapa ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  transition: all 0.2s ease-in-out;
+}
+header #mapa ul li a:hover {
+  color: red;
+  transform: scale(1.1);
+}
+header #mapa ul li a p {
+  margin: 0;
 }
 
-#mapa {
-
-    width: 100%;
-    height: 120px;
-    display: flex;
-
+main {
+  padding-top: 120px;
 }
-
-#mapa a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+main #NAGL {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(255, 240, 154);
+  text-align: center;
+  font-size: 64px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
-#mapa a:hover {
-    text-decoration: none;
-    color: #fc1e1e;
-    font-weight: bold;
-
-}
-
-#mapa_teskt_1 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_2 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_3 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-
-
-#mapa_teskt_5 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#NAGL {
-    height: 150px;
-    width: 100%;
-    background-color: rgb(255, 240, 154);
-    text-align: center;
-    font-size: 64px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-#INFO {
-    width: 70%;
-    height: 1000px;
-    background-color: rgb(192, 255, 255);
-    text-align: center;
-    margin-left: 350px;
-    margin-top: 50px;
-    font-size: 40px;
-    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
-    row-gap: 20px;
-    letter-spacing: 1.5px;
-    word-spacing: 3px;
-    padding-left: 10px;
+main #INFO {
+  width: 70%;
+  height: auto;
+  background-color: rgb(192, 255, 255);
+  text-align: center;
+  margin: 50px auto 0 auto;
+  font-size: 40px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  row-gap: 20px;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  padding: 20px;
 }
 
 footer {
-    display: flex;
-    height: 100px;
-    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
-    background-color: whitesmoke;
-    margin-top: 100px;
-    margin-bottom: 0;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  margin-top: 100px;
+  width: 100%;
 }
-#map{
-    display: inline;
-    padding-left: 260px;
-    font-size: 32px;
+footer #mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+footer #mapa ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+}
+footer #mapa ul li {
+  list-style: none;
+}
+footer #mapa ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  transition: all 0.2s ease-in-out;
+}
+footer #mapa ul li a:hover {
+  color: red;
+  transform: scale(1.1);
+}/*# sourceMappingURL=O_mnie.css.map */
