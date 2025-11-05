@@ -6,30 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt-2025-Praktyki</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="skrypt.js"></script>
-    
+
+
 </head>
 
 <body>
     <header>
 
         <div id="mapa">
-            <a href="index.html">
-                <p id="mapa_teskt_1"><a href="index.html">DOM</p>
-            </a>
-            <a href="html/O_mnie.html">
-                <p id="mapa_teskt_2"><a href="html/O_mnie.html">MNIE</p>
-            </a>
-            <a href="html/Prace.html">
-                <p id="mapa_teskt_3"><a href="html/Prace.html">MOJE PRACE</p>
-            </a>
-            
-            <a href="html/Kontakt.html">><p id="mapa_teskt_5"><a href="html/Kontakt.html">KONTAKT</p></a>
+            <ul type="none">
+                <li id="map"><a href="index.html">DOM</a></li>
+                <li id="map"><a href="html/O_mnie.html">O MNIE</a></li>
+                <li id="map"><a href="html/Prace.html">PRACE</a></li>
+                <li id="map"><a href="html/Kontakt.html">KONTAKT</a></li>
+
+            </ul>
+                
         </div>
+        <button id="przy_gora"><a href="#kont_3"><img src="images/Design and Technology (4).svg" alt="strzałka" height="50px" width="140%" id="strz"></a></button>
     </header>
     <main>
         <div class="kontener">
-
+            <section id="kont_3">
+                <ol>
+                    <li><a href="#Slider">Klienci</a></li>
+                    <li><a href="#O_mnie">O mnie</a></li>
+                    <li><a href="#Prace">Prace</a></li>
+                    <li><a href="#Kontakt">Kontakt</a></li>
+                </ol>
+            </section>
             <section id="kont_2">
                 <p id="teskt_kont">Czesc</p><br>
                 <p id="teskt_kont_1">Jestem Jan Kowalski</p> <br><br>
@@ -40,18 +45,21 @@
                     value="Skontaktuj się ze mną" id="kont_2_przyc">
             </section>
             <section id="kont_3"><img src="images/1.png" alt="zdjęcia" height="700px"></section>
-
+            <section id="kont_4">
+                fsf
+            </section>
         </div>
         <section id="slider">
             <h3>MOI KLIENCI</h3>
             <div id="slid_kont">
 
-                <div id="logo_1"><a href="https://www.youtube.com/"><img src="images/19.png" alt="" height="120px"
-                            width="80%"></a></div>
+                <div id="logo_1"><a href="https://www.youtube.com/" target="_blank"><img src="images/19.png" alt=""
+                            height="120px" width="80%"></a></div>
 
-                <div id="logo_1"><a href="https://www.facebook.com/"><img src="images/22.png" alt="" height="120px"
+                <div id="logo_1"><a href="https://www.facebook.com/" target="_blank"><img src="images/22.png" alt=""
+                            height="120px" width="80%"></a></div>
+                <div id="logo_1"><a href="https://x.com/" target="_blank"><img src="images/23.png" alt="" height="120px"
                             width="80%"></a></div>
-                <div id="logo_1"><a href="https://x.com/"><img src="images/23.png" alt="" height="120px" width="80%"></a></div>
             </div>
         </section>
         <section id="o_mnie">
@@ -66,9 +74,9 @@
             </h2>
         </section>
         <input type="button" value="Zobacz więcej" id="o_mnie_przyc">
-        <section>
+        <section id="Prace">
             <h1>
-                <p id="Prace_teskt">Moje prace</p>
+                <p id="Prace_teskt" class="Prace">Moje prace</p>
             </h1>
             <div id="Prace_kont">
                 <div><img src="images/Zdjęcia 1.jpg" alt="zdjecie 1" height="200px"></div>
@@ -78,9 +86,9 @@
             <input type="button" value="Zobacz więcej" id="Prace_przyc">
         </section>
 
-        <section>
+        <section id="Kontakt">
 
-            <div id="Kont_el">
+            <div id="Kont_el" class="kontakt">
                 <h1>
                     <p id="Kont_tekst">Skontaktuj się</p>
                 </h1>
@@ -93,18 +101,13 @@
         </section>
     </main>
     <footer>
-      <div id="mapa">
-                   <a href="index.html">
-                <p id="mapa_teskt_1"><a href="index.html">DOM</p>
-            </a>
-            <a href="html/O_mnie.html">
-                <p id="mapa_teskt_2"><a href="html/O_mnie.html">MNIE</p>
-            </a>
-            <a href="html/Prace.html">
-                <p id="mapa_teskt_3"><a href="html/Prace.html">MOJE PRACE</p>
-            </a>
-            
-            <a href="html/Kontakt.html">><p id="mapa_teskt_5"><a href="html/Kontakt.html">KONTAKT</p></a>
+        <div id="mapa">
+            <ul type="none">
+                <li id="map"><a href="index.html">DOM</a></li>
+                <li id="map"><a href="html/O_mnie.html">O MNIE</a></li>
+                <li id="map"><a href="html/Prace.html">PRACE</a></li>
+                <li id="map"><a href="html/Kontakt.html">KONTAKT</a></li>
+            </ul>
         </div>
     </footer>
 </body>

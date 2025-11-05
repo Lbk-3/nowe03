@@ -100,3 +100,16 @@ footer {
     gap: 20px;
     margin-left: 400px;
 }
+#pole{
+    border-radius: 5%;
+    border: solid 2px black ;
+}
+#przyc:focus{
+    accent-color: blue;
+    height: 15px;
+}
+#map{
+    display: inline;
+    padding-left: 260px;
+    font-size: 32px;
+}

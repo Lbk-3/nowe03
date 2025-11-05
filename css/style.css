@@ -18,7 +18,7 @@
 }
 
 #kont_3 {
-
+    margin-right: -60px;
     width: 32%;
     height: 700px;
 }
@@ -30,7 +30,7 @@ header {
     position: sticky;
     z-index: 100;
     top: 0;
-   
+
 }
 
 #mapa {
@@ -40,16 +40,18 @@ header {
     display: flex;
 
 }
+
 #mapa a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
-#mapa a:hover{
+
+#mapa a:hover {
     text-decoration: none;
     color: #fc1e1e;
     font-weight: bold;
-    
+
 }
 
 #mapa_teskt_1 {
@@ -63,7 +65,7 @@ header {
     padding-left: 260px;
     padding-top: 15px;
     font-size: 25px;
-   
+
 }
 
 #mapa_teskt_3 {
@@ -255,4 +257,66 @@ footer {
     margin-top: 100px;
     margin-bottom: 0;
     width: 100%;
+}
+
+#kont_3 {
+    width: 120px;
+    height: 100px;
+    background-color: rgb(245, 237, 228);
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    ;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#map {
+    display: inline;
+    padding-left: 260px;
+    font-size: 32px;
+}
+
+#przy_gora {
+    height: 40px;
+    margin-right: 150px;
+    width: 2.5%;
+    margin-top: 35px;
+    border-radius: 25%;
+}
+
+#przy_gora:hover {
+    height: 40px;
+    margin-right: 150px;
+    width: 2.5%;
+    margin-top: 35px;
+
+
+    border-radius: 35%;
+    animation: forwards powie 0.8s;
+}
+
+@keyframes powie {
+    0% {
+        transform: scale(1.00);
+        border-radius: 25%;
+
+    }
+
+    100% {
+        transform: scale(1.1);
+        border-radius: 35%;
+        background-color: #F6FC1E;
+    }
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
 }

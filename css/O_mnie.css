@@ -93,3 +93,8 @@ footer {
     margin-bottom: 0;
     width: 100%;
 }
+#map{
+    display: inline;
+    padding-left: 260px;
+    font-size: 32px;
+}

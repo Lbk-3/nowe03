@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/Prace.css">
 </head>
+
 <body>
     <header>
 
         <div id="mapa">
-            <a href="index.html">
-                    <p id="mapa_teskt_1"><a href="../index.html">DOM</p>
-            </a>
-            <a href="O_mnie.html">
-                <p id="mapa_teskt_2"><a href="O_mnie.html">MNIE</p>
-            </a>
-            <a href="Prace.html">
-                <p id="mapa_teskt_3"><a href="Prace.html">MOJE PRACE</p>
-            </a>
-            <a href="Kontakt.html">><p id="mapa_teskt_5"><a href="Kontakt.html">KONTAKT</p></a>
+            <ul type="none">
+                <li id="map"><a href="../index.html">DOM</a></li>
+                <li id="map"><a href="O_mnie.html">O MNIE</a></li>
+                <li id="map"><a href="Prace.html">PRACE</a></li>
+                <li id="map"><a href="Kontakt.html">KONTAKT</a></li>
+
+            </ul>
         </div>
     </header>
     <main>
@@ -27,33 +26,55 @@
             Natura:
         </div>
         <div id="NATURA">
-            <div id="NATURA_1">
-            <img src="../images/Zdjęcia 1.jpg" alt="zdjęcie1" height="268">
-            <img src="../images/Zdjęcia 2.jpg " alt="zdjęcie2" height="268">
-            <img src="../images/Zdjęcia 3.jpg" alt="zdjęcie3" height="268">
-            </div>
-            <div id="NATURA_2">
-            <img src="../images/Zdjęcia 4.jpg" alt="zdjęcie4" height="268">
-            <img src="../images/dz0yMDU4Jmg9MTIwMA==_src_214912-23-wyzwania-fotograficzne-na-rok-202351.jpg" alt="zdjecie5" height="268">
-            <img src="../images/1189c7e609aab28218df82693a2d25da.jpg" alt="zdjęcie6" height="268">
-            </div>
+            <table>
+                <tr>
+                    <th><img src="../images/Zdjęcia 1.jpg" alt="zdjęcie1" height="268"></th>
+                    <th><img src="../images/Zdjęcia 2.jpg" alt="zdjęcie1" height="268"></th>
+                </tr>
+                <tr>
+                    <td><img src="../images/Zdjęcia 2.jpg" alt="zdjęcie1" height="268"></td>
+                    <td><img src="../images/Zdjęcia 2.jpg" alt="zdjęcie1" height="268"></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/Zdjęcia 2.jpg" alt="zdjęcie1" height="268"></td>
+                    <td><img src="../images/Zdjęcia 2.jpg" alt="zdjęcie1" height="268"></td>
+                </tr>
+            </table>
         </div>
         <div id="NAGL">
             Uroczystosci:
         </div>
         <div id="URO">
             <div id="NATURA_1">
-            <img src="../images/Swieto-Wojska-Polskiego-845x635.jpg" alt="zdjęcie1" height="268">
-            <img src="../images/images (1).jpeg" alt="zdjęcie2" height="268">
-            <img src="../images/gf-vQP4-VJW7-Busx_11-listopada-2018-warszawa-program-obchodow-narodowego-swieta-niepodleglosci-w-stolicy-664x442.jpg" alt="zdjęcie3" height="268">
+                <tr>
+                    <th>
+                        <img src="../images/Swieto-Wojska-Polskiego-845x635.jpg" alt="zdjecie1" height="268">
+                    </th>
+                    <td>
+                        <img src="../images/Swieto-Wojska-Polskiego-845x635.jpg" alt="zdjecie1" height="268">
+                    </td>
+                    <td>
+                        <img src="../images/Swieto-Wojska-Polskiego-845x635.jpg" alt="zdjecie1" height="268">
+                    </td>
+                </tr>
             </div>
         </div>
+        <div id="NAGL">
+            Filmy:
+        </div>
+        <div id="FILMY">
+            <iframe width="600" height="320" track src="https://www.youtube.com/embed/awlwB3-r9eU"
+                title="Życie lasu – bogactwo przyrodnicze" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="FILM_fra"></iframe>
+        </div>
+
 
     </main>
     <footer>
         <div id="mapa">
             <a href="index.html">
-                    <p id="mapa_teskt_1"><a href="../index.html">DOM</p>
+                <p id="mapa_teskt_1"><a href="../index.html">DOM</a></p>
             </a>
             <a href="O_mnie.html">
                 <p id="mapa_teskt_2"><a href="O_mnie.html">MNIE</p>
@@ -61,10 +82,11 @@
             <a href="Prace.html">
                 <p id="mapa_teskt_3"><a href="Prace.html">MOJE PRACE</p>
             </a>
-         
+
             <a href="Kontakt.html">><p id="mapa_teskt_5"><a href="Kontakt.html">KONTAKT</p></a>
         </div>
-        
+
     </footer>
 </body>
+
 </html>
