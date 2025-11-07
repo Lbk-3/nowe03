@@ -1,48 +1,42 @@
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 120px;
+}
+
 header {
   display: flex;
-  height: 100px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  z-index: 100;
-  top: 0;
-  position: sticky;
-  background-color: white;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 }
-header #mapa {
-  width: 100%;
+
+#menu {
+  width: 75%;
+  background-color: azure;
+  height: 120px;
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
+  font-size: 32px;
 }
-header #mapa ul {
-  display: flex;
-  gap: 200px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+#menu p {
+  padding-left: 50px;
 }
-header #mapa ul li a {
+
+a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 32px;
-  transition: all 0.2s ease-in-out;
-}
-header #mapa ul li a:hover {
-  text-decoration: none;
-  color: red;
-  transform: scale(1.1);
 }
 
-main #NAGL {
-  height: 150px;
-  width: 100%;
-  background-color: rgb(255, 240, 154);
-  text-align: center;
-  font-size: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+a:hover {
+  text-decoration: none;
+  color: #fc1e1e;
+  font-weight: bold;
 }
+
+
 main #KONT_FORM {
   display: flex;
   justify-content: center;
@@ -55,12 +49,14 @@ main #KONT_FORM {
   padding: 25px;
   gap: 40px;
 }
+
 main #KONT_FORM form {
   width: 35%;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 main #KONT_FORM form input,
 main #KONT_FORM form textarea {
   width: 100%;
@@ -70,12 +66,14 @@ main #KONT_FORM form textarea {
   border-radius: 6px;
   transition: all 0.2s ease-in-out;
 }
+
 main #KONT_FORM form input:focus,
 main #KONT_FORM form textarea:focus {
   outline: none;
   border-color: red;
   box-shadow: 0 0 4px red;
 }
+
 main #KONT_FORM form input[type=submit] {
   background-color: black;
   color: white;
@@ -87,26 +85,32 @@ main #KONT_FORM form input[type=submit] {
   padding: 6px 0;
   margin-top: 10px;
 }
+
 main #KONT_FORM form input[type=submit]:hover {
   background-color: red;
 }
+
 main #KONT_FORM form fieldset {
   border: 2px solid black;
   border-radius: 10px;
   padding: 8px 12px;
   font-size: 14px;
 }
+
 main #KONT_FORM form fieldset legend {
   font-weight: bold;
 }
+
 main #KONT_FORM form fieldset ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 main #KONT_FORM form fieldset ul li {
   margin-bottom: 5px;
 }
+
 main #KONT_FORM iframe {
   width: 55%;
   height: 250px;
@@ -116,31 +120,44 @@ main #KONT_FORM iframe {
 }
 
 footer {
-  display: flex;
-  height: 100px;
-  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
-  background-color: whitesmoke;
-  margin-top: 100px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    height: 200px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 16px;
+
 }
-footer #mapa ul {
-  display: flex;
-  gap: 200px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+#logo_f {
+    background-color: #fc1e1e;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
 }
-footer #mapa ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 32px;
-  transition: all 0.2s ease-in-out;
+
+#linki {
+
+    background-color: #F6FC1E;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
 }
-footer #mapa ul li a:hover {
-  text-decoration: none;
-  color: red;
-  transform: scale(1.1);
-}/*# sourceMappingURL=Kontakt.css.map */
+
+#zakladki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#copyright {
+    background-color: #fc891e;
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}

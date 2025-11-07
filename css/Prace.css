@@ -2,7 +2,7 @@ header {
     display: flex;
     height: 100px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    
+
     z-index: 100;
     top: 0;
 
@@ -16,46 +16,16 @@ header {
 
 }
 
-#mapa a {
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-#mapa a:hover {
+a:hover {
     text-decoration: none;
     color: #fc1e1e;
     font-weight: bold;
-
-}
-
-#mapa_teskt_1 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_2 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_3 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-
-
-#mapa_teskt_5 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
 
 }
 
@@ -67,7 +37,7 @@ header {
     font-size: 64px;
     justify-content: center;
     margin-top: 30px;
-    
+
 }
 
 
@@ -80,19 +50,22 @@ footer {
     margin-bottom: 0;
     width: 100%;
 }
-#DANE{
+
+#DANE {
     width: 65%;
     height: 250px;
     background-color: azure;
     margin-top: 40px;
     margin-left: 350px;
 }
-#DANE_nagl{
+
+#DANE_nagl {
     font-size: 48px;
     text-align: center;
 }
-#NATURA{
-        width: 65%;
+
+#NATURA {
+    width: 65%;
     height: 1000px;
     background-color: azure;
     text-align: center;
@@ -107,8 +80,9 @@ footer {
     justify-content: center;
 
 }
-#URO{
-            width: 65%;
+
+#URO {
+    width: 65%;
     height: 300px;
     background-color: azure;
     text-align: center;
@@ -122,19 +96,82 @@ footer {
     margin-bottom: 10px;
     padding-left: 75px;
 }
-#map{
+
+#map {
     display: inline;
     padding-left: 260px;
     font-size: 32px;
 }
-#FILMY{
+
+#FILMY {
     height: 600px;
     width: 65%;
     background: azure;
     margin-left: 350px;
     box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 }
-#FILM_fra{
+
+#FILM_fra {
     margin-left: 275px;
     margin-top: 180px;
+}
+#logo{
+width: 25%;
+background-color: azure;
+height: 120px;
+}
+#menu{
+width: 75%;
+background-color: azure;
+height: 120px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+font-size: 32px;
+}
+#menu p{
+    padding-left: 50px;
+}
+footer {
+    display: flex;
+    height: 200px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+#logo_f {
+    background-color: #fc1e1e;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+}
+
+#linki {
+
+    background-color: #F6FC1E;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#zakladki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#copyright {
+    background-color: #fc891e;
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
 }

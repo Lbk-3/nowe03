@@ -25,64 +25,23 @@
 
 header {
     display: flex;
-    height: 100px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    position: sticky;
-    z-index: 100;
-    top: 0;
-
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 }
 
-#mapa {
 
-    width: 100%;
-    height: 120px;
-    display: flex;
 
-}
-
-#mapa a {
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-#mapa a:hover {
+a:hover {
     text-decoration: none;
     color: #fc1e1e;
     font-weight: bold;
-
 }
 
-#mapa_teskt_1 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_2 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-#mapa_teskt_3 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
-
-
-
-#mapa_teskt_5 {
-    padding-left: 260px;
-    padding-top: 15px;
-    font-size: 25px;
-
-}
 
 #slider {
     margin-top: 30px;
@@ -249,15 +208,6 @@ header {
     border-color: #F6FC1E;
 }
 
-footer {
-    display: flex;
-    height: 100px;
-    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
-    background-color: whitesmoke;
-    margin-top: 100px;
-    margin-bottom: 0;
-    width: 100%;
-}
 
 #kont_3 {
     width: 120px;
@@ -270,11 +220,7 @@ footer {
     color: black;
 }
 
-#map {
-    display: inline;
-    padding-left: 260px;
-    font-size: 32px;
-}
+
 
 #przy_gora {
     height: 40px;
@@ -290,7 +236,7 @@ footer {
     width: 2.5%;
     margin-top: 35px;
 
-    
+
 
     border-radius: 35%;
     animation: forwards powie 0.8s;
@@ -320,4 +266,68 @@ section a:hover {
     text-decoration: none;
     color: red;
     font-weight: bolder;
+}
+
+#logo {
+    width: 25%;
+    background-color: azure;
+    height: 120px;
+}
+
+#menu {
+    width: 75%;
+    background-color: azure;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+}
+
+#menu p {
+    padding-left: 50px;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+#logo_f {
+    background-color: #fc1e1e;
+    height: 200px;
+    display: flex;
+    align-items: end;
+
+}
+
+#linki {
+
+    background-color: #F6FC1E;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#zakladki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#copyright {
+    background-color: #fc891e;
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
 }
