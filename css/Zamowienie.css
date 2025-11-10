@@ -1,0 +1,244 @@
+@charset "UTF-8";
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 120px;
+}
+
+header {
+  display: flex;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#menu {
+  width: 75%;
+  background-color: azure;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+}
+
+#menu p {
+  padding-left: 50px;
+}
+
+#Produkt_kont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#Produkt {
+  width: 30%;
+  background-color: rgba(30, 200, 252, 0.5254901961);
+  height: 700px;
+  margin-right: 20px;
+  border: solid black 1px;
+}
+
+#Zdjecie {
+  width: 90%;
+  height: 300px;
+}
+
+#Zdjecie img {
+  height: 300px;
+  width: 80%;
+  display: flex;
+  padding-left: 55px;
+}
+
+#Opis {
+  text-align: center;
+}
+
+#Opis input {
+  background-color: rgb(185, 255, 127);
+  border-color: rgb(185, 255, 127);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fc1e1e;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+#logo_f {
+  height: 200px;
+  display: flex;
+  align-items: end;
+  width: 25%;
+}
+
+#linki {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#zakladki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#copyright {
+  width: 25%;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+}
+
+/* ======================== WERSJA MOBILNA ======================== */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    width: 25%;
+    background-color: azure;
+    height: 120px;
+  }
+  #logo img {
+    height: 50px;
+  }
+  header {
+    display: flex;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  }
+  header #menu {
+    width: 100%;
+    background-color: azure;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  header #menu p {
+    padding-left: 50px;
+  }
+  header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  header a:hover {
+    color: #fc1e1e;
+    font-weight: bold;
+  }
+  #Produkt_kont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* Ustawiamy produkt pionowo: zdjęcie na górze, opis na dole */
+  #Produkt {
+    width: 80%;
+    background-color: rgba(30, 200, 252, 0.5254901961);
+    height: auto;
+    margin-bottom: 30px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #Zdjecie {
+    order: -1; /* zdjęcie na górze */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Zdjecie img {
+    width: 90%;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  #Opis {
+    order: 0; /* opis pod zdjęciem */
+    width: 90%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  #Opis input {
+    background-color: rgb(185, 255, 127);
+    border-color: rgb(185, 255, 127);
+    font-size: 8px;
+  }
+  footer {
+    display: flex;
+    height: 200px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+  footer #logo_f {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+  }
+  footer #linki {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer #linki #zakladki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer #copyright {
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  footer a:hover {
+    color: red;
+    font-weight: bolder;
+  }
+}/*# sourceMappingURL=Zamowienie.css.map */

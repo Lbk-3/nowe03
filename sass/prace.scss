@@ -4,32 +4,37 @@ header {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   z-index: 100;
   top: 0;
-}
-header #logo {
-  width: 25%;
-  background-color: azure;
-  height: 120px;
-}
-header #menu {
-  width: 75%;
-  background-color: azure;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  font-size: 32px;
-}
-header #menu p {
-  padding-left: 50px;
-}
-header a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-header a:hover {
-  color: #fc1e1e;
+
+  #logo {
+    width: 25%;
+    background-color: azure;
+    height: 120px;
+  }
+
+  #menu {
+    width: 75%;
+    background-color: azure;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+
+    p {
+      padding-left: 50px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    &:hover {
+      color: #fc1e1e;
+    }
+  }
 }
 
 #mapa {
@@ -53,10 +58,11 @@ header a:hover {
   height: 250px;
   background-color: azure;
   margin: 40px 0 0 350px;
-}
-#DANE #DANE_nagl {
-  font-size: 48px;
-  text-align: center;
+
+  #DANE_nagl {
+    font-size: 48px;
+    text-align: center;
+  }
 }
 
 #NATURA {
@@ -103,10 +109,11 @@ header a:hover {
   background: azure;
   margin-left: 350px;
   box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
-}
-#FILMY #FILM_fra {
-  margin-left: 275px;
-  margin-top: 180px;
+
+  #FILM_fra {
+    margin-left: 275px;
+    margin-top: 180px;
+  }
 }
 
 footer {
@@ -118,30 +125,34 @@ footer {
   margin-bottom: 0;
   width: 100%;
   font-size: 16px;
+
+  #logo_f {
+    background-color: #fc1e1e;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+  }
+
+  #linki {
+    background-color: #f6fc1e;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+    #zakladki {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  #copyright {
+    background-color: #fc891e;
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+  }
 }
-footer #logo_f {
-  background-color: #fc1e1e;
-  height: 200px;
-  display: flex;
-  align-items: end;
-  width: 25%;
-}
-footer #linki {
-  background-color: #f6fc1e;
-  width: 50%;
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-}
-footer #linki #zakladki {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-footer #copyright {
-  background-color: #fc891e;
-  width: 25%;
-  align-items: end;
-  display: flex;
-  justify-content: center;
-}/*# sourceMappingURL=prace.css.map */

@@ -1,63 +1,42 @@
-$fsize: 32px;
-$color-hover: red;
-$color-normal: black;
-$tdecoration: none;
-$hvtransform: scale(1.1);
-$hvtransition: all 0.2s ease-in-out;
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 120px;
+}
 
 header {
   display: flex;
-  height: 100px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  z-index: 100;
-  top: 0;
-  position: sticky;
-  background-color: white;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 
-  #mapa {
-    width: 100%;
+  #menu {
+    width: 75%;
+    background-color: azure;
+    height: 120px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
+    font-size: 32px;
 
-    ul {
-      display: flex;
-      gap: 200px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    p {
+      padding-left: 50px;
+    }
+  }
 
-      li {
-        a {
-          text-decoration: $tdecoration;
-          color: $color-normal;
-          font-weight: bold;
-          font-size: $fsize;
-          transition: $hvtransition;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 
-          &:hover {
-            text-decoration: $tdecoration;
-            color: $color-hover;
-            transform: $hvtransform;
-          }
-        }
-      }
+    &:hover {
+      text-decoration: none;
+      color: #fc1e1e;
+      font-weight: bold;
     }
   }
 }
 
 main {
-  #NAGL {
-    height: 150px;
-    width: 100%;
-    background-color: rgb(255, 240, 154);
-    text-align: center;
-    font-size: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   #KONT_FORM {
     display: flex;
     justify-content: center;
@@ -87,8 +66,8 @@ main {
 
         &:focus {
           outline: none;
-          border-color: $color-hover;
-          box-shadow: 0 0 4px $color-hover;
+          border-color: red;
+          box-shadow: 0 0 4px red;
         }
       }
 
@@ -104,7 +83,7 @@ main {
         margin-top: 10px;
 
         &:hover {
-          background-color: $color-hover;
+          background-color: red;
         }
       }
 
@@ -142,37 +121,38 @@ main {
 
 footer {
   display: flex;
-  height: 100px;
+  height: 200px;
   box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
   background-color: whitesmoke;
   margin-top: 100px;
+  margin-bottom: 0;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  font-size: 16px;
 
-  #mapa {
-    ul {
+  #logo_f {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+  }
+
+  #linki {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+    #zakladki {
       display: flex;
-      gap: 200px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-
-      li {
-        a {
-          text-decoration: $tdecoration;
-          color: $color-normal;
-          font-weight: bold;
-          font-size: $fsize;
-          transition: $hvtransition;
-
-          &:hover {
-            text-decoration: $tdecoration;
-            color: $color-hover;
-            transform: $hvtransform;
-          }
-        }
-      }
+      flex-direction: column;
+      align-items: center;
     }
+  }
+
+  #copyright {
+    width: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
   }
 }

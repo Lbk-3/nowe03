@@ -9,7 +9,19 @@ header {
   box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 }
 
-#menu {
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #fc1e1e;
+  font-weight: bold;
+}
+
+header #menu {
   width: 75%;
   background-color: azure;
   height: 120px;
@@ -20,26 +32,14 @@ header {
   font-size: 32px;
 }
 
-#menu p {
+header #menu p {
   padding-left: 50px;
 }
-
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fc1e1e;
-  font-weight: bold;
-}
-
 
 main {
   padding-top: 120px;
 }
+
 main #NAGL {
   height: 150px;
   width: 100%;
@@ -49,6 +49,7 @@ main #NAGL {
   justify-content: center;
   margin-top: 20px;
 }
+
 main #INFO {
   width: 70%;
   height: auto;
@@ -63,7 +64,95 @@ main #INFO {
   padding: 20px;
 }
 
-footer {
+
+@media(max-width:768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding-top: 120px;
+  }
+
+  main #NAGL {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 240, 154);
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #logo {
+    width: 25%;
+    background-color: azure;
+    height: 120px;
+
+  }
+
+  #logo img {
+    height: 50px;
+  }
+
+  main #INFO {
+    width: 70%;
+    height: auto;
+    background-color: rgb(192, 255, 255);
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 10px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+    row-gap: 20px;
+    letter-spacing: 1px;
+
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+
+  header #menu {
+    width: 100%;
+
+    background-color: azure;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+
+
+    
+  }
+
+  header #menu p {
+    padding-left: 50px;
+
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header a:hover {
+    text-decoration: none;
+    color: #fc1e1e;
+    font-weight: bold;
+  }
+
+
+
+  footer {
     display: flex;
     height: 200px;
     box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
@@ -71,38 +160,62 @@ footer {
     margin-top: 100px;
     margin-bottom: 0;
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
+  }
 
-}
-
-#logo_f {
-    background-color: #fc1e1e;
+  footer #logo_f {
     height: 200px;
     display: flex;
     align-items: end;
     width: 25%;
+  }
 
-}
+  footer #logo_f img {
+    height: 30px;
+    display: flex;
+    align-items: end;
+    
+  }
 
-#linki {
-
-    background-color: #F6FC1E;
+  footer #linki {
     width: 50%;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-}
+    margin-right: 100px;
+    font-size: 12px;
+  }
 
-#zakladki {
+  footer #linki #zakladki {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    font-size: 12px;
+    margin-right: 20px;
+  }
 
-#copyright {
-    background-color: #fc891e;
+  footer #linki #zakladki p {
+    font-size: 12px;
+  }
+
+  footer #copyright {
     width: 25%;
     align-items: end;
     display: flex;
     justify-content: center;
+    font-size: 12px;
+  }
+
+  /*# sourceMappingURL=Kontakt.css.map */
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+  }
 }

@@ -1,61 +1,43 @@
-$fsize: 32px;
-$color-hover: red;
-$color-normal: black;
-$tdecoration: none;
-$hvtransform: scale(1.1);
-$hvtransition: all 0.2s ease-in-out;
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 120px;
+}
 
 header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: white;
-  height: 100px;
-  width: 100%;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 
-  #mapa {
-    width: 100%;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+      color: #fc1e1e;
+      font-weight: bold;
+    }
+  }
+
+  #menu {
+    width: 75%;
+    background-color: azure;
+    height: 120px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
 
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 100px;
-      margin: 0;
-      padding: 0;
-
-      li {
-        list-style: none;
-
-        a {
-          text-decoration: $tdecoration;
-          color: $color-normal;
-          font-weight: bold;
-          font-size: $fsize;
-          transition: $hvtransition;
-
-          &:hover {
-            color: $color-hover;
-            transform: $hvtransform;
-          }
-
-          p {
-            margin: 0; // usuwa odstępy w <p>
-          }
-        }
-      }
+    p {
+      padding-left: 50px;
     }
   }
 }
 
 main {
-  padding-top: 120px; // żeby treść nie była pod sticky headerem
+  padding-top: 120px;
 
   #NAGL {
     height: 150px;
@@ -84,43 +66,39 @@ main {
 
 footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
+  height: 200px;
   box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
   background-color: whitesmoke;
   margin-top: 100px;
+  margin-bottom: 0;
   width: 100%;
+  font-size: 14px;
 
-  #mapa {
-    width: 100%;
+  #logo_f {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+  }
+
+  #linki {
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+    #zakladki {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(50% / 3);
+    }
+  }
+
+  #copyright {
+    width: 25%;
+    align-items: end;
     display: flex;
     justify-content: center;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 100px;
-      margin: 0;
-      padding: 0;
-
-      li {
-        list-style: none;
-
-        a {
-          text-decoration: $tdecoration;
-          color: $color-normal;
-          font-weight: bold;
-          font-size: $fsize;
-          transition: $hvtransition;
-
-          &:hover {
-            color: $color-hover;
-            transform: $hvtransform;
-          }
-        }
-      }
-    }
   }
 }

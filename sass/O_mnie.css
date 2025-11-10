@@ -1,0 +1,94 @@
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 120px;
+}
+
+header {
+  display: flex;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header a:hover {
+  text-decoration: none;
+  color: #fc1e1e;
+  font-weight: bold;
+}
+header #menu {
+  width: 75%;
+  background-color: azure;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+}
+header #menu p {
+  padding-left: 50px;
+}
+
+main {
+  padding-top: 120px;
+}
+main #NAGL {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(255, 240, 154);
+  text-align: center;
+  font-size: 64px;
+  justify-content: center;
+  margin-top: 20px;
+}
+main #INFO {
+  width: 70%;
+  height: auto;
+  background-color: rgb(192, 255, 255);
+  text-align: center;
+  margin: 50px auto 0 auto;
+  font-size: 40px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  row-gap: 20px;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+footer #logo_f {
+  height: 200px;
+  display: flex;
+  align-items: end;
+  width: 25%;
+}
+footer #linki {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer #linki #zakladki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16.6666666667%;
+}
+footer #copyright {
+  width: 25%;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=O_mnie.css.map */
