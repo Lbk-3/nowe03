@@ -23,12 +23,13 @@ header #menu {
 header #menu p {
   padding-left: 50px;
 }
-header a {
+a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  
 }
-header a:hover {
+ a:hover {
   color: #fc1e1e;
 }
 
@@ -111,7 +112,7 @@ header a:hover {
 
 footer {
   display: flex;
-  height: 200px;
+  height: 230px;
   box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
   background-color: whitesmoke;
   margin-top: 100px;
@@ -120,14 +121,14 @@ footer {
   font-size: 16px;
 }
 footer #logo_f {
-  background-color: #fc1e1e;
+
   height: 200px;
   display: flex;
   align-items: end;
   width: 25%;
 }
 footer #linki {
-  background-color: #f6fc1e;
+
   width: 50%;
   display: inline-flex;
   justify-content: space-around;
@@ -139,9 +140,169 @@ footer #linki #zakladki {
   align-items: center;
 }
 footer #copyright {
-  background-color: #fc891e;
+
   width: 25%;
   align-items: end;
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=prace.css.map */
+}
+@media(max-width: 768px){
+body {
+  margin: 0;
+  padding: 0;
+ 
+
+}
+  
+  #logo {
+    width: 25%;
+    background-color: azure;
+    height: 200px;
+  }
+  #logo img {
+    height: 50px;
+  }
+  header {
+    display: flex;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  }
+  header #menu {
+    width: 100%;
+    background-color: azure;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  header #menu p {
+    padding-left: 50px;
+  }
+  header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  header a:hover {
+    color: #fc1e1e;
+    font-weight: bold;
+  }
+
+#logo {
+  width: 25%;
+  background-color: azure;
+  height: 200px;
+}
+#logo img{
+   height: 50px
+}
+
+#menu {
+  width: 600px;
+  height: 200px;
+  
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  
+}
+
+#menu p {
+  padding-left: 50px;
+}
+#NATURA tr{
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  align-items: center;
+
+}
+#NATURA img{
+  height: 80px;
+}
+
+
+footer {
+  display: flex;
+  height: 350px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  margin-top: 200px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 12px;
+}
+#logo_f img{
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+footer a{
+    text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer a:hover{
+    text-decoration: none;
+  color: rgb(51, 255, 0);
+  font-weight: bolder;
+}
+
+footer #logo_f {
+  height: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  width: 40px;
+  margin-left: 20px;
+  
+}
+
+footer #linki {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer #linki #zakladki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+}
+
+footer #copyright {
+  width: 25%;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+}
+#kont_3 img{
+  height: 100px;
+}
+#slid_kont img{
+  height: 20px;
+}
+header{
+  width: 100%;
+  background-color: aqua;
+  height: 200px;
+}
+#kont_4{
+  font-size: 10px;
+}
+
+
+
+  
+
+
+
+}
